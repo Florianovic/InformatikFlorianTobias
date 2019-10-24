@@ -55,11 +55,14 @@ eigene Servos getestet, zwei auf einmal angeschlossen yt tutorial
 
 ### 23.10.19
 versuchen schalter einzubauen
-Bauplan gesucht
+Bauplan gesucht, andere Stromversorgung als bei uns
 komplett nachgebaut funzt
+Sketch von irgendeinem Asiaten kopiert,
+nicht ganz geblickt wie dasganze funzt
 
 ### 24.10.19
 Geforkten Github Text mit beiden Accounts verbunden, weiter geschrieben
 geschaut wie man Bilder einfügen kann
-
+versucht asiatensketch zu verstehen, wie man den Schalter benutz, (keine vernünftigen Tutorials dazu im Internet, nur kleine Knöpfe)
+Sketch vom Asiaten analysiert um es auf unser Sketch anwenden zu können.
 ![Bauplan](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Bauplan.PNG)
