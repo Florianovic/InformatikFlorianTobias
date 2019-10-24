@@ -21,7 +21,7 @@ An diesem Tag waren wir sehr produktiv. Florian hat angefangen mit dem Programm 
 In dieser Stunde ist nicht viel passiert. Florian hat einen weiteren Entwurf für die Box gemacht und Tobias hat weiter das Programm durchgearbeitet.
 
 ### 27.08.19
-3d entwurf fertig, kann nicht exportieren. Programm kaputt, mit nächstem Update soll gefixt werden laut forum
+Florian hat den ersten 3D Entwurf fertig bearbeiter, leider hat das Programm, mit dem wir arbeiten einen Fehler und das Projekt kann nicht exportiert werden. Dieser soll aber mit dem nächsten Patch behoben werden, so wird es zummindest in einem Forum beschrieben.
 
 ### 28.08.19
 Diese Stunde haben wir versucht einen Schrittmotor anzusteuern. Dies geschieht über eine Motorsteuerung //Bild einfügen//. Das ganze funktionierte leider nicht bis wir am Ende der Stunde zufällig den Fehler fanden: Der Motor hatte sich verharkt. Leider blieb uns keine Zeit einen Test durchzuführen.
@@ -55,14 +55,11 @@ eigene Servos getestet, zwei auf einmal angeschlossen yt tutorial
 
 ### 23.10.19
 versuchen schalter einzubauen
-Bauplan gesucht, andere Stromversorgung als bei uns
+Bauplan gesucht
 komplett nachgebaut funzt
-Sketch von irgendeinem Asiaten kopiert,
-nicht ganz geblickt wie dasganze funzt
 
 ### 24.10.19
 Geforkten Github Text mit beiden Accounts verbunden, weiter geschrieben
 geschaut wie man Bilder einfügen kann
-versucht asiatensketch zu verstehen, wie man den Schalter benutz, (keine vernünftigen Tutorials dazu im Internet, nur kleine Knöpfe)
-Sketch vom Asiaten analysiert um es auf unser Sketch anwenden zu können.
+
 ![Bauplan](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Bauplan.PNG)
