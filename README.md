@@ -40,6 +40,7 @@ Versucht zwei Motoren gleichzeitig an Arduino anzuschließen, nur einen 5V steck
 
 ### 24.09.19
 erfolgreich zwei Motoren angesteuert, zwei Stecker ineinender in die 5V
+können nicht mehr mit zwei Geräten an einem Github Text arbeiten
 
 ### 25.09.19 
 versucht einen schalter einzubauen, im forum nach Formatierungspoblem gesucht. Mit neuem Update soll as behoben werden.
@@ -57,5 +58,8 @@ versuchen schalter einzubauen
 Bauplan gesucht
 komplett nachgebaut funzt
 
+### 24.10.19
+Geforkten Github Text mit beiden Accounts verbunden, weiter geschrieben
+geschaut wie man Bilder einfügen kann
 
 ![Bauplan](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Bauplan.PNG)
