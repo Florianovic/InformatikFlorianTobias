@@ -63,3 +63,5 @@ Geforkten Github Text mit beiden Accounts verbunden, weiter geschrieben
 geschaut wie man Bilder einfügen kann
 
 ![Bauplan](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Bauplan.PNG)
+
+pill down resistor?
