@@ -65,3 +65,6 @@ geschaut wie man Bilder einfügen kann
 ![Bauplan](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Bauplan.PNG)
 
 pill down resistor?
+
+### 29.10.19
+Projektseite angefangen alla, Musterbeispiel angeschaut
