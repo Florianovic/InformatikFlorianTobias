@@ -17,6 +17,13 @@ Diese Stunde haben wir weiter mit Arduino experimentiert. Wir haben versucht ein
 ### 21.08.19
 An diesem Tag waren wir sehr produktiv. Florian hat angefangen mit dem Programm "MatterHackers" ein 3D Modell der Box anzufertigen. Während dessen hat Tobias angefangen sich durch ein Basis-Programm für Arduino durchzuarbeiten. Erste Schritte waren das Aufleuchten lassen einer LED über ein Seckbrett.
 
+Florian:
+Ich habe im Internet nach Programen recherchiert, mit denen man ein 3d Modell modellieen kann da wir uns überlegt haben, das es cool wäre wenn wir unsere Box nach unseren Vorstellungen designen könnten und an die uns vorschwebenden Maße anpassen könnten.
+Bei meiner Recherche bin auf das Programm MatterControl gestoßen, mit dem man sich kostenlos und einfach eine 3D Figur designen kann. Das Programm ist sehr übersichtlich und man kann seine Figur auf der Grundlage von einigen einfachen Formen modellieren.
+Mit der Grundlage eines Würfels habe ich begonnen:
+
+
+
 ### 22.08.19
 In dieser Stunde ist nicht viel passiert. Florian hat einen weiteren Entwurf für die Box gemacht und Tobias hat weiter das Programm durchgearbeitet.
 
