@@ -21,7 +21,7 @@ Florian:
 Ich habe im Internet nach Programen recherchiert, mit denen man ein 3d Modell modellieen kann da wir uns überlegt haben, das es cool wäre wenn wir unsere Box nach unseren Vorstellungen designen könnten und an die uns vorschwebenden Maße anpassen könnten.
 Bei meiner Recherche bin auf das Programm MatterControl gestoßen, mit dem man sich kostenlos und einfach eine 3D Figur designen kann. Das Programm ist sehr übersichtlich und man kann seine Figur auf der Grundlage von einigen einfachen Formen modellieren.
 Mit der Grundlage eines Würfels habe ich begonnen:
-![https://raw.githubusercontent.com/Florianovic/InformatikFlorianTobias/master/Matterhackers%20W%C3%BCrfel.PNG]
+![Matterhavkers 1](https://raw.githubusercontent.com/Florianovic/InformatikFlorianTobias/master/Matterhackers%20W%C3%BCrfel.PNG)
 
 
 
