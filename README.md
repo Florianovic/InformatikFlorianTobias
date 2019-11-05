@@ -77,3 +77,9 @@ pill down resistor?
 
 ### 29.10.19
 Projektseite angefangen alla, Musterbeispiel angeschaut
+
+### 05.11.19
+Das Upsate für Mattercontrol wurde released, direkt gegönnt, bug is behoben, hart gefreut, Export funzt, online shop sacht 10000€
+
+
+
