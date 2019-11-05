@@ -21,8 +21,9 @@ Florian:
 Ich habe im Internet nach Programen recherchiert, mit denen man ein 3d Modell modellieen kann da wir uns überlegt haben, das es cool wäre wenn wir unsere Box nach unseren Vorstellungen designen könnten und an die uns vorschwebenden Maße anpassen könnten.
 Bei meiner Recherche bin auf das Programm MatterControl gestoßen, mit dem man sich kostenlos und einfach eine 3D Figur designen kann. Das Programm ist sehr übersichtlich und man kann seine Figur auf der Grundlage von einigen einfachen Formen modellieren.
 Mit der Grundlage eines Würfels habe ich begonnen:
-![Matterhavkers 1](https://raw.githubusercontent.com/Florianovic/InformatikFlorianTobias/master/Matterhackers%20W%C3%BCrfel.PNG)
+![Mattercontol 1](https://raw.githubusercontent.com/Florianovic/InformatikFlorianTobias/master/Matterhackers%20W%C3%BCrfel.PNG)
 
+Nachdem ich mich etwas mit dem Programm vertraut gemacht habe, habe ich angefangen die Kiste zu modellieren. Die Maße waren realitätsgleich in Zentimetern angegeben und ich modellierte eine Kiste mit den Maßen: (kommt noch, ich muss mich grad über das Update freuen)
 
 
 ### 22.08.19
