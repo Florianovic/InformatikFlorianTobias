@@ -84,3 +84,9 @@ Das Upsate für Mattercontrol wurde released, direkt gegönnt, bug is behoben, h
 ### 06.11.19
 DER DURBRUCH! wir haben alle Komponenten zusamengefügt. Fern von allen Plänen und nur ufgrund undser bishergen Erfahrungen haben wir das Steckbrett verstanden (Teilung am 5V-Pin ist bullshit) stattdessen einfach + und - Spur am Steckbrett mit 5V und Grd vorbunden. Beide Servos an Strom angeschlossen und mit Arduino verbunden. Im scetch definiert und ausprobiert. FUNKTIONIERT!! Schalter dazugebaut mit Entladung durch Widerstand und auch in Scetch reingeschrieben. Ausprobiert und nach einigen Klamerfehlern ging es. Durch Schalter ließe sich beide Servos ansteuern und auch bei Stromversuorgung durch Baterie ha alls funktioniert. Das Grundgerüst ist fertig! ab jetzt alles in eine Kiste packen, Kram fertig schreiben, Scetch optimieren und fertig ist der Bums!
 
+### 11.11.19 Zuahuse
+Kiste gefunden und alle Komponenten eingebaut. In die Kiste zwei Löcher für die Schlter gebohrt, Steckbrett und Arduino rein, verkabeln, Servos rein und verkabeln, Akku rein und an Arduino anschließen, Schalter anschließen, alles rein, sodass es psst und feddich 
+
+### 12.11.19
+Box optimiert (Arm abgeschliffen) weil der Arm ab und zu abgerutscht ist
+Website und Protokoll weiter geschrieben.
