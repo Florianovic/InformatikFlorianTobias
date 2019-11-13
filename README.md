@@ -3,10 +3,13 @@
 ## Stundenprotokolle
 
 ### 13.08.19
-Unsere erste Informatikstunde verlief sehr ruhig, wir haben von Herrn Buhl eine Einführung in das Fach und die Website "Github" bekommen. Außerdem haben wir uns über ein Paar der Projekte des vorherigen Jahrganges informiert.
+In unserer allerersten Informatikstunde hat Herr Buhl uns erzählt, wie der Unterricht mit ich allgemein ablaufen wird. Die Schüler sollen sich zusammentun und in Zweiergruppen an einem Halbjahresprojekt arbeiten. Was das für ein Projekt sein soll darf sich jeder frei aussuchen. Wichtig ist nur, dass am Ergebnis eine eigenständige informatische Leistung zu erkennen ist und diese anhand von Stundenprotokollen erkennbar ist, die wir auf der Seite Github schreiben. Es ist mehr eigenständiges Arbeiten und autodidaktisches Lernen als Unterricht. Herr Buhl steht zwar immer für Fragen bereit aber unser Wissen sollen wir uns selbst über das Internet, Texte und Tutorials holen.
+Als Inspiration wurde uns eine Reihe von Projekten aus dem letzten Jahr gezeigt. Zu jedem Projekt gehört auch eine Projektseite auf der das Projekt vorgestellt und die Funktionsweise erläutert wird.
+Wir (Florian und Tobias) haben uns in der ersten Stunde die Projektseiten des letzten Informatikkurses angeschaut. Es gab neben einigen Computerspielen auch die Möglichkeit eine Steuerplatine zu programmieren mit der man Motoren, Servos und LEDs ansteuern kann. Das fanden wir beide sehr interessant und wollten auch etwas damit machen.
+
 
 ### 14.08.19
-In unserer zweiten Informatikstunde haben wir uns inen Github-Account erstellt und erste Erfahrungen mit dem Programm gemacht. Ebenfalls haben wir angefangen den Stundenblog zu schreiben
+In unserer zweiten Informatikstunde haben wir uns jeder einen Github-Account erstellt und erste Erfahrungen mit dem Programm gemacht. Wir haben ein Tutorial geschaut, konnten aber aufgrund der Lautstärke im Raum kein Wort von dem Gesprochenen verstehen und haben uns von Herrn Buhl zeigen lassen wie man eine Datei erstellt un haben angefangen unseren Stundenblog zu schreiben.
 
 ### 15.08.19
 In dieser Stunde haben wir uns für das Projekt "Useless-Box" entschieden. Dies wollen wir mit einem Arduino umsetzen. Des weiteren haben wir erste erfahrungen mit Arduino gesammelt.
