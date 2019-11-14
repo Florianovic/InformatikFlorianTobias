@@ -62,32 +62,32 @@ Aus einem früheren Projekt war ein Roboterarm im Technikschrank in dem mehrere 
 
 ### 22.10.19
 Da Florians Vater Modellflugzeuge baut und ein paar Servos hatte, reichte ein kleiner Einkauf bei Conradelektronik um einen Arduino, ein paar Kabel, Steckbrett und Schalter zu besorgen. Wir fanden einen Bauplan Bauplan für eine Uselsee-Box im Internet, mit dem wir versuchten alle Komponenten einmal zu verbinden und deren Zusammenspiel somit zu verstehen. Bis auf die an- und abschaltbare Stromquelle bauten wir es nach.
+![Bauplan](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Bauplan.PNG)
 
 ### 23.10.19
-versuchen schalter einzubauen
-Bauplan gesucht
-komplett nachgebaut funzt
+Da wir alles blind übernommen hatten, und es funktionierte, machten wir uns nun daran das ganze zu verstehen. Da hier beide Servos mit Strom versorgt wurden aber nur ein Kabel aus dem 5V-Pin kam wurde uns klar, dass man die Verteilung des Stroms natürlich über das Steckbrett machen kann. Nach näherer Auseinandersetzung mit der Funktionsweise eines Steckbretts wurde uns klar, dass es einfach ausreichen würde 5V mit der Plus-Spur und Grd mit der Minus-Spur zu verbinden und von dort aus alle Komponenten anzuschließen. Aus dem Sketch wurden wir jedoch absolut nicht schlau. Da alle Randbemerkungen aus asiatischen Schriftzeichen bestanden und das Sketch allgemein so lang war, dass wir komplett den Überblick verloren, gaben wir auf und versuchten erneut die einzelnen Komponenten zu verstehen.
+
 
 ### 24.10.19
-Geforkten Github Text mit beiden Accounts verbunden, weiter geschrieben
-geschaut wie man Bilder einfügen kann
-
-![Bauplan](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Bauplan.PNG)
+Florian schaute sich noch einmal das Tutorial aus der Playlist für Schalter an und übertrug es auf unseren Kippschalter. Er baute eine Schaltung mit der man mit Hilfe eines Schalters eine LED an und wieder ausstellt. Auch der Sketch mit der If-Bedingung schien mit einem Mal ganz logisch. Plötzlich wurde uns klar, dass wir ganz kurz vor dem Ziel standen. Eine ganz einfache Useless-Box zu bauen, die sich ganz einfach immer auf dieselbe Art und Weise ausschaltet. All diese komplizierten Dinge aus dem asiatischen Sketch und die komplizierte Schaltung waren eigentlich total unnötig für das was wir wollten. Wir brauchten keine LED oder eine komplizierte Stromversorgung über das Steckbrett.
+Wir mussten einfach nur den Strom vom Akku zum Arduino mit dem ersten Schalter regeln, 5V und Grd mit dem Steckbrett verbinden und dort beide Servos und den Schalter anschließen und mit jeweils einem Kabel zum Arduino führen. Mehr nicht!
 
 pill down resistor?
 
 ### 29.10.19
-Projektseite angefangen alla, Musterbeispiel angeschaut
+Heute ist uns aufgefallen, dass wir noch gar keine Projektseite angefangen haben. Wir haben uns nochmal ein Musterbeispiel vom letzten Informatikkurs angesehen und unsere eigene angelegt. Das hat uns sp viel Zeit gekostet, dass wir es gar nicht mehr geschafft haben unseren Plan auszuprobieren.
 
 ### 05.11.19
-Das Upsate für Mattercontrol wurde released, direkt gegönnt, bug is behoben, hart gefreut, Export funzt, online shop sacht 10000€
+Wir haben es sofort installiert und die Exportfunktion ausprobiert. Es hat funktioniert und wir haben uns übertrieben gefreut. Wir suchten einen online-3D-Druck-Shop raus und importierten unsere Datei. Leider musste man sich dafür erst wieder einen Account erstellen und das hat uns einige Zeit gekostet. Als wir dann soweit waren und das Material für unseren druck aussuchen konnten waren wir völlig entsetzt. Die Preisliste sah nämlich so aus:
 
 ### 06.11.19
-DER DURBRUCH! wir haben alle Komponenten zusamengefügt. Fern von allen Plänen und nur ufgrund undser bishergen Erfahrungen haben wir das Steckbrett verstanden (Teilung am 5V-Pin ist bullshit) stattdessen einfach + und - Spur am Steckbrett mit 5V und Grd vorbunden. Beide Servos an Strom angeschlossen und mit Arduino verbunden. Im scetch definiert und ausprobiert. FUNKTIONIERT!! Schalter dazugebaut mit Entladung durch Widerstand und auch in Scetch reingeschrieben. Ausprobiert und nach einigen Klamerfehlern ging es. Durch Schalter ließe sich beide Servos ansteuern und auch bei Stromversuorgung durch Baterie ha alls funktioniert. Das Grundgerüst ist fertig! ab jetzt alles in eine Kiste packen, Kram fertig schreiben, Scetch optimieren und fertig ist der Bums!
+Da wir den Blödsinn mit dem 3D-Druck nun vergessen konnten, fingen wir an unsere Schaltung zu bauen. Als externe Stromversorgung hatte Florian von seinem Vater einen 7.4V Lipo-Akku mitgebracht. Das dazugehörige Adapterkabel für den Arduino hatte er auch bei Conrad gekauft und in das Kabel den ersten Schalter eingelötet. Damit war für die externe Stromversorgung gesogt. Wir haben den 5V Pin des Arduinos nun mit der Plus-Spur des Steckbretts und Grd mit der Minus-Spur verbunden. Anschließend haben wir die Servos an den Strom angeschlossen, indem wir das Braune Kabel mit der Grd-Spur und das rote mit der 5V-Spur verbunden haben. Das Steuerkabel ging dann jeweils in einen PWN-Pin, in diesem Falle in 10 und 11. Der Schalter ging mit einem ende in 5V und mit dem anderen in PIN 13. Dazwischen musste allerdings ein Widerstand geschaltet werden, der sog. „pull-down-resistor“, welcher im Schalter-Tutorial erwähnt wurde und von dem uns Herr Buhl erzählt hat. Er ist notwendig um die Restspannung vom Schalter nach der Trennung der Stromverbindung verschwinden zu lassen und führt dabei in die Grd-Spur. 
+Der Aufbau war nun fertig, also mussten wir das Sketch schreiben. Wir fingen mit der Servo-Zeile und der Definition des Schalters an. Wir legten die Namen der Servos fest und nannten die Pins im Setup-Teil wobei wir den Schalter als Input-Komponente festlegten, da von ihm aus ja der Schalterzustand abgelesen werden soll. Im Loop-Teil bauten wir dann ganz einfach eine If-Bedingung ein für „buttonPin High“ mit Gradzahlen für beide Servos und „else“ mit anderen Gradzahlen für Beide ein. Dann hatten wir einen zustand für die Servos in beiden Fällen des Schalterzustandes. Nachdem wir noch einige Klammerfehler beheben mussten konnten wir den Sketch auf den Arduino laden und siehe da, es hat funktioniert!!! 
+
 
 ### 11.11.19 Zuahuse
-Kiste gefunden und alle Komponenten eingebaut. In die Kiste zwei Löcher für die Schlter gebohrt, Steckbrett und Arduino rein, verkabeln, Servos rein und verkabeln, Akku rein und an Arduino anschließen, Schalter anschließen, alles rein, sodass es psst und feddich 
+Florian hat zuhause eine Kiste gesucht und zwei Löcher für die Schalter gebohrt. Danach alle Komponenten eingebaut und an beide Servos Holzstücke angebaut. Eine Verlängerung um den Deckel zu öffnen und einen runden Arm um den Schalter zu betätigen. Danach hat er das Sketch so angepasst, dass erst der Deckel aufgeht, dann nach einem delay von 500 der Arm ausfährt und nach Betätigen des Schalters in umgekehrter Reihenfolge in den Anfangszustand geht. Damit war unsere Useless-Box fertig.
 
 ### 12.11.19
-Box optimiert (Arm abgeschliffen) weil der Arm ab und zu abgerutscht ist
-Website und Protokoll weiter geschrieben.
+Heute haben wir noch einige Ausbesserungen vorgenommen, da beispielsweise der Arm für den Schalter hüufig abgerutscht ist.
+Zuhause hat Florian das Adapterkabel noch etwas gekürzt un einen kleineren Servo für den deckel genommen um etwas Platz zu sparen, da aufgrund der vielen Kabel der deckel oft nicht richtig zu ging. Ebenfalls hat er ein Stück Blei in den Deckel geklebt damit er richtig schließt und einen kleinen Stoffwurm auf den Schalter-Arm geklebt. Als lustige Überraschung, der Holzwurm in der Kiste. Damit war die Useless-Box endgültig fertig.
