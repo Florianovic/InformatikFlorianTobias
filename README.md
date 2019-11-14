@@ -16,7 +16,9 @@ In dieser Stunde haben wir uns überlegt, was wir für ein Projekt mit der Steue
 Von Herrn Buhl bekamen wir eine Arduino-Platine. Um diese zu programmieren muss man sie an einen PC anschließen und mit einer dort installierten Software den programmierten Code, den „Sketch“ auf den Arduino übertragen. Wir haben uns in dieser Stunde beide die Arduino-Software aus dem Internet auf unsere Laptops geladen und auf YouTube nach einem Tutorial gesucht.
 
 ### 20.08.19
-Diese Stunde haben wir weiter mit Arduino experimentiert. Wir haben versucht einen Motor anzusteuern, leider ohne Erfolg.
+Wir haben eine Arduino-Tutorial-Reihe auf YouTube gefunden und haben angefangen dies durchzuarbeiten.
+https://www.youtube.com/watch?v=0wAY3DYihyg&list=PLAB63281B90FB376E
+
 
 ### 21.08.19
 An diesem Tag waren wir sehr produktiv. Florian hat angefangen mit dem Programm "MatterHackers" ein 3D Modell der Box anzufertigen. Während dessen hat Tobias angefangen sich durch ein Basis-Programm für Arduino durchzuarbeiten. Erste Schritte waren das Aufleuchten lassen einer LED über ein Seckbrett.
