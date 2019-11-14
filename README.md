@@ -72,8 +72,6 @@ Da wir alles blind übernommen hatten, und es funktionierte, machten wir uns nun
 Florian schaute sich noch einmal das Tutorial aus der Playlist für Schalter an und übertrug es auf unseren Kippschalter. Er baute eine Schaltung mit der man mit Hilfe eines Schalters eine LED an und wieder ausstellt. Auch der Sketch mit der If-Bedingung schien mit einem Mal ganz logisch. Plötzlich wurde uns klar, dass wir ganz kurz vor dem Ziel standen. Eine ganz einfache Useless-Box zu bauen, die sich ganz einfach immer auf dieselbe Art und Weise ausschaltet. All diese komplizierten Dinge aus dem asiatischen Sketch und die komplizierte Schaltung waren eigentlich total unnötig für das was wir wollten. Wir brauchten keine LED oder eine komplizierte Stromversorgung über das Steckbrett.
 Wir mussten einfach nur den Strom vom Akku zum Arduino mit dem ersten Schalter regeln, 5V und Grd mit dem Steckbrett verbinden und dort beide Servos und den Schalter anschließen und mit jeweils einem Kabel zum Arduino führen. Mehr nicht!
 
-pill down resistor?
-
 ### 29.10.19
 Heute ist uns aufgefallen, dass wir noch gar keine Projektseite angefangen haben. Wir haben uns nochmal ein Musterbeispiel vom letzten Informatikkurs angesehen und unsere eigene angelegt. Das hat uns sp viel Zeit gekostet, dass wir es gar nicht mehr geschafft haben unseren Plan auszuprobieren.
 
