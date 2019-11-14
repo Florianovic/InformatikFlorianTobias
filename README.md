@@ -3,16 +3,17 @@
 ## Stundenprotokolle
 
 ### 13.08.19
-In unserer allerersten Informatikstunde hat Herr Buhl uns erzählt, wie der Unterricht mit ich allgemein ablaufen wird. Die Schüler sollen sich zusammentun und in Zweiergruppen an einem Halbjahresprojekt arbeiten. Was das für ein Projekt sein soll darf sich jeder frei aussuchen. Wichtig ist nur, dass am Ergebnis eine eigenständige informatische Leistung zu erkennen ist und diese anhand von Stundenprotokollen erkennbar ist, die wir auf der Seite Github schreiben. Es ist mehr eigenständiges Arbeiten und autodidaktisches Lernen als Unterricht. Herr Buhl steht zwar immer für Fragen bereit aber unser Wissen sollen wir uns selbst über das Internet, Texte und Tutorials holen.
+In unserer allerersten Informatikstunde hat Herr Buhl uns erzählt, wie der Unterricht mit ich allgemein ablaufen wird. Die Schüler sollen sich zusammentun und in Zweiergruppen an einem Halbjahresprojekt arbeiten. Was das für ein Projekt sein soll darf sich jeder frei aussuchen. Wichtig ist nur, dass am Ergebnis eine eigenständige informatische Leistung zu erkennen ist und diese anhand von Stundenprotokollen erkennbar ist, die wir auf der Seite GitHub schreiben. Es ist mehr eigenständiges Arbeiten und autodidaktisches Lernen als Unterricht. Herr Buhl steht zwar immer für Fragen bereit aber unser Wissen sollen wir uns selbst über das Internet, Texte und Tutorials holen.
 Als Inspiration wurde uns eine Reihe von Projekten aus dem letzten Jahr gezeigt. Zu jedem Projekt gehört auch eine Projektseite auf der das Projekt vorgestellt und die Funktionsweise erläutert wird.
 Wir (Florian und Tobias) haben uns in der ersten Stunde die Projektseiten des letzten Informatikkurses angeschaut. Es gab neben einigen Computerspielen auch die Möglichkeit eine Steuerplatine zu programmieren mit der man Motoren, Servos und LEDs ansteuern kann. Das fanden wir beide sehr interessant und wollten auch etwas damit machen.
 
 
 ### 14.08.19
-In unserer zweiten Informatikstunde haben wir uns jeder einen Github-Account erstellt und erste Erfahrungen mit dem Programm gemacht. Wir haben ein Tutorial geschaut, konnten aber aufgrund der Lautstärke im Raum kein Wort von dem Gesprochenen verstehen und haben uns von Herrn Buhl zeigen lassen wie man eine Datei erstellt un haben angefangen unseren Stundenblog zu schreiben.
+In unserer zweiten Informatikstunde haben wir uns jeder einen GitHub-Account erstellt und erste Erfahrungen mit dem Programm gemacht. Wir haben ein Tutorial geschaut, konnten aber aufgrund der Lautstärke im Raum kein Wort von dem Gesprochenen verstehen und haben uns von Herrn Buhl zeigen lassen wie man eine Datei erstellt und haben angefangen unseren Stundenblog zu schreiben.
 
 ### 15.08.19
-In dieser Stunde haben wir uns für das Projekt "Useless-Box" entschieden. Dies wollen wir mit einem Arduino umsetzen. Des weiteren haben wir erste erfahrungen mit Arduino gesammelt.
+In dieser Stunde haben wir uns überlegt, was wir für ein Projekt mit der Steuerplatine, dem „Arduino“ machen könnten. Tobi hatte die Idee eine „Useless-Box“ (nutzlose Box) zu bauen. Eine Kiste mit einem Kippschalter, welche sich beim Umlegen des Schalters öffnet und ihn mit einem Roboterarm wieder auf die Ausgangsposition stellt. Ein endloser Kampf von Mensch gegen Maschine! 
+Von Herrn Buhl bekamen wir eine Arduino-Platine. Um diese zu programmieren muss man sie an einen PC anschließen und mit einer dort installierten Software den programmierten Code, den „Sketch“ auf den Arduino übertragen. Wir haben uns in dieser Stunde beide die Arduino-Software aus dem Internet auf unsere Laptops geladen und auf YouTube nach einem Tutorial gesucht.
 
 ### 20.08.19
 Diese Stunde haben wir weiter mit Arduino experimentiert. Wir haben versucht einen Motor anzusteuern, leider ohne Erfolg.
