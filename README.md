@@ -58,12 +58,10 @@ Da wir nun auch mit den Motoren erstmal feststeckten, haben wir uns wieder dem P
 Da bisher bei allen Teilen für unsere Useless-Box Probleme aufgetaucht waren, haben wir uns heute die letzte Komponente für unser Projekt vorgenommen, die noch fehlte. Den Schalter. Dazu haben wir uns das YouTube Video aus der Arduino-Playlist angeschaut und versucht es nachzubauen. Das ist allerdings auch sofort gescheitert, da es nicht möglich war den Schalter an die vorgesehene Stelle zu platzieren, da unser Steckbrett zu groß war. Wir haben uns überlegt, was wir an die Schrittmotoren bauen könnten um den Schalter auszulösen und kamen zu dem Schluss, dass Servos für diese Aufgabe deutlich besser geeignet waren.
   
 ### 29.09.19
-Servo angesteuert
-fertiger >Roboter aus Sammlung, verschiedene Servos ausprobiert, zunächst nur hin und her
-dann hin in zwei Stufen und langsam zurück, dann schnell hin und langsam zurück... rumprobiert
+Aus einem früheren Projekt war ein Roboterarm im Technikschrank in dem mehrere Servos verbaut waren. Nachdem wir uns ein Tutorial für Servos am Arduino angesehen haben, steckten wir die drei Kabel des Servos in 5V, Grd und einen PWM-Pin. Mit einem im Arduino-Programm gespeicherten Sketch haben wir sie angesteuert. Das Ausbauen der Servos wäre allerdings etwas schwierig geworden und da wir uns ohnehin überlegt haben, dass es schade wäre, wenn wir unsere fertige Useless-Box nicht behalten könnten, wollten wir uns die Komponenten selber kaufen. 
 
 ### 22.10.19
-eigene Servos getestet, zwei auf einmal angeschlossen yt tutorial
+Da Florians Vater Modellflugzeuge baut und ein paar Servos hatte, reichte ein kleiner Einkauf bei Conradelektronik um einen Arduino, ein paar Kabel, Steckbrett und Schalter zu besorgen. Wir fanden einen Bauplan Bauplan für eine Uselsee-Box im Internet, mit dem wir versuchten alle Komponenten einmal zu verbinden und deren Zusammenspiel somit zu verstehen. Bis auf die an- und abschaltbare Stromquelle bauten wir es nach.
 
 ### 23.10.19
 versuchen schalter einzubauen
