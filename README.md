@@ -16,27 +16,28 @@ In dieser Stunde haben wir uns überlegt, was wir für ein Projekt mit der Steue
 Von Herrn Buhl bekamen wir eine Arduino-Platine. Um diese zu programmieren muss man sie an einen PC anschließen und mit einer dort installierten Software den programmierten Code, den „Sketch“ auf den Arduino übertragen. Wir haben uns in dieser Stunde beide die Arduino-Software aus dem Internet auf unsere Laptops geladen und auf YouTube nach einem Tutorial gesucht.
 
 ### 20.08.19
-Wir haben eine Arduino-Tutorial-Reihe auf YouTube gefunden und haben angefangen dies durchzuarbeiten.
+Wir haben eine Arduino-Tutorial-Reihe auf YouTube gefunden und haben angefangen diese durchzuarbeiten.
 https://www.youtube.com/watch?v=0wAY3DYihyg&list=PLAB63281B90FB376E
-
+Wir haben eine LED zum leuchten gebracht, indem wir die Schaltung aus dem Video mehr oder weniger nachgebaut und das Sketch abgeschrieben haben. BILD UND ERLÄUTERUNG VON SKETCH UND SCHALTUNG
 
 ### 21.08.19
-An diesem Tag waren wir sehr produktiv. Florian hat angefangen mit dem Programm "MatterHackers" ein 3D Modell der Box anzufertigen. Während dessen hat Tobias angefangen sich durch ein Basis-Programm für Arduino durchzuarbeiten. Erste Schritte waren das Aufleuchten lassen einer LED über ein Seckbrett.
-
-Florian:
-Ich habe im Internet nach Programen recherchiert, mit denen man ein 3d Modell modellieen kann da wir uns überlegt haben, das es cool wäre wenn wir unsere Box nach unseren Vorstellungen designen könnten und an die uns vorschwebenden Maße anpassen könnten.
-Bei meiner Recherche bin auf das Programm MatterControl gestoßen, mit dem man sich kostenlos und einfach eine 3D Figur designen kann. Das Programm ist sehr übersichtlich und man kann seine Figur auf der Grundlage von einigen einfachen Formen modellieren.
-Mit der Grundlage eines Würfels habe ich begonnen:
+Da wir nur ein Arduino zur Verfügung hatten hat Tobias zunächst angefangen das Tutorial durchzuarbeiten.
+Florian hat im Internet nach Programen recherchiert, mit denen man ein 3d Modell modellieren kann, da wir uns überlegt haben dass es cool wäre wenn wir unsere Box nach unseren Vorstellungen designen könnten und an die uns vorschwebenden Maße anpassen könnten.
+Bei seiner Recherche ist er auf das Programm MatterControl gestoßen mit dem man sich kostenlos und einfach eine 3D Figur designen kann. Das Programm ist sehr übersichtlich und man kann seine Figur auf der Grundlage von einigen einfachen Formen modellieren.
+Mit der Grundlage eines Würfels hat er begonnen:
 ![Mattercontol 1](https://raw.githubusercontent.com/Florianovic/InformatikFlorianTobias/master/Matterhackers%20W%C3%BCrfel.PNG)
 
-Nachdem ich mich etwas mit dem Programm vertraut gemacht habe, habe ich angefangen die Kiste zu modellieren. Die Maße waren realitätsgleich in Zentimetern angegeben und ich modellierte eine Kiste mit den Maßen: (kommt noch, ich muss mich grad über das Update freuen)
+Nachdem er sich etwas mit dem Programm vertraut gemacht hat, hat er angefangen die Kiste zu modellieren. Die Maße waren realitätsgleich in Zentimetern angegeben und er modellierte eine Kiste mit den Maßen: (kommt noch, ich muss mich grad über das Update freuen)
 
 
 ### 22.08.19
-In dieser Stunde ist nicht viel passiert. Florian hat einen weiteren Entwurf für die Box gemacht und Tobias hat weiter das Programm durchgearbeitet.
+In der heutigen Stunde hat Florian die Box weiter modelliert und Kiste und Deckel separat gemacht. Die Idee war, die Box wie eine Art Maul zu machen aus dem eine Zunge kommt und den Schalter umlegt. Tobias hat unterdessen 
+
+
+??weiter das Programm durchgearbeitet. Tobi was hast du da gemacht?
 
 ### 27.08.19
-Florian hat den ersten 3D Entwurf fertig bearbeiter, leider hat das Programm, mit dem wir arbeiten einen Fehler und das Projekt kann nicht exportiert werden. Dieser soll aber mit dem nächsten Patch behoben werden, so wird es zummindest in einem Forum beschrieben.
+Florian hat den ersten 3D Entwurf fertig bearbeitet. Leider konnte das Projekt aus irgendeinem Grund nicht exportiert werden und somit keine druckbare Datei erstellt werden. Wir haben versucht das Problem mit Neustarten des Laptops und dem neuen Installieren des Programms zu lösen. Leider ohne Erfolg. Auch auf Tobias Laptop hat das Exportieren nicht funktioniert, woraufhin wir schlussfolgerten, dass das Programm einen Fehler haben musste.
 
 ### 28.08.19
 Diese Stunde haben wir versucht einen Schrittmotor anzusteuern. Dies geschieht über eine Motorsteuerung //Bild einfügen//. Das ganze funktionierte leider nicht bis wir am Ende der Stunde zufällig den Fehler fanden: Der Motor hatte sich verharkt. Leider blieb uns keine Zeit einen Test durchzuführen.
