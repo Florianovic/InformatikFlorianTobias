@@ -40,26 +40,22 @@ In der heutigen Stunde hat Florian die Box weiter modelliert und Kiste und Decke
 Florian hat den ersten 3D Entwurf fertig bearbeitet. Leider konnte das Projekt aus irgendeinem Grund nicht exportiert werden und somit keine druckbare Datei erstellt werden. Wir haben versucht das Problem mit Neustarten des Laptops und dem neuen Installieren des Programms zu lösen. Leider ohne Erfolg. Auch auf Tobias Laptop hat das Exportieren nicht funktioniert, woraufhin wir schlussfolgerten, dass das Programm einen Fehler haben musste.
 
 ### 28.08.19
-Diese Stunde haben wir versucht einen Schrittmotor anzusteuern. Dies geschieht über eine Motorsteuerung //Bild einfügen//. Das ganze funktionierte leider nicht bis wir am Ende der Stunde zufällig den Fehler fanden: Der Motor hatte sich verharkt. Leider blieb uns keine Zeit einen Test durchzuführen.
+Um unser Projekt der Useless-Box umzusetzen, haben wir heute im Technikschrank des Computerraums nach Komponenten gesucht, mit denen wir den Arm zum Betätigen des Kippschalters bewegen können. Wir haben einen Schrittmotor gefunden und uns im Internet einen Bauplan rausgesucht um ihn zu testen. Auch das Sketch haben wir übernommen aber aus irgendeinem Grund funktionierte es nicht.
 
 ### 29.08.19
-Heute haben wir einen "Proof of concept" für den Schrittmotor durchgeführt. Der Code funktioniert erwartungsgemäß und der Motor bewegt sich. Durch eine Anregung von Herrn Buhl haben wir dann versucht durch das Einbauen von Variablen den Motor besser kontrollieren zu können.
-
+Heute haben wir erneut probiert den Motor zum Laufen zu bekommen. Wir haben unsere Schaltung und unser Sketch noch einmal genau überprüft und keinen Fehler gefunden. Der Motor wurde warm und vibrierte leicht, bewegte sich aber nicht. Durch Zufall merkte Tobi, dass er sich verhakt hatte und nachdem er ihn per Hand ein Stück gedreht hatte lief er von alleine weiter, bis er nach zwei bis drei Durchläufen des Loops wieder hängen blieb. Wir haben noch einen zweiten Motor gefunden, den wir gegen den defekten austauschten und alles funktionierte einwandfrei.
 
 ### 11.09.19
-3d entwurf fertig, kann nicht exportieren. 
-parallel mit Motor rumprobiert
+Das einfache Ansteuern des Motors funktionierte nun. Um aber gezielt die Bewegung ausführen zu können, die wir für unser Projekt brauchten musste es uns gelingen die genaue Einstellung des Motors festzulegen. Die wollten wir durch den Einbau von Variablen erreichen. WAS IST DAS??
 
 ### 12.09.19
-Versucht zwei Motoren gleichzeitig an Arduino anzuschließen, nur einen 5V stecker--> nicht funktioniert, im Internet nach Alternativen Lösungen gesucht
-(Deckel und Hand/Zunge)
+Wir haben heute versucht zwei Motoren an unser Arduino anzuschließen, da wir für unser Projekt neben dem Arm der den Schalter betätigt auch einen Motor brauchen, der den Deckel der Kiste öffnet. Dabei stießen wir auf ein Problem. Der 5Volt Pin am Arduino war nur einmal vorhanden, doch da beide Motoren von ihm Strom beziehen mussten, mussten wir einen weg finden zwei Kabel in den einen Pin zu bekommen.
 
 ### 24.09.19
-erfolgreich zwei Motoren angesteuert, zwei Stecker ineinender in die 5V
-können nicht mehr mit zwei Geräten an einem Github Text arbeiten
+Da wir nun auch mit den Motoren erstmal feststeckten, haben wir uns wieder dem Problem mit dem 3d-Programm zugewendet. Das Exportieren der Datei war immer noch nicht möglich, weshalb wir im Internet nach einer Lösung suchten. Florian stieß dabei auf ein Forum in dem mehrere das gleiche Problem hatten. Einer der Entwickler des Programms hatte darauf geantwortet, dass dieses Problem bekannt sei und es mit dem nächsten Update behoben werden soll. Wir hofften, dass das Update noch vor Abgabe unseres Projekts herauskommen würde.
 
 ### 25.09.19 
-versucht einen schalter einzubauen, im forum nach Formatierungspoblem gesucht. Mit neuem Update soll as behoben werden.
+Da bisher bei allen Teilen für unsere Useless-Box Probleme aufgetaucht waren, haben wir uns heute die letzte Komponente für unser Projekt vorgenommen, die noch fehlte. Den Schalter. Dazu haben wir uns das YouTube Video aus der Arduino-Playlist angeschaut und versucht es nachzubauen. Das ist allerdings auch sofort gescheitert, da es nicht möglich war den Schalter an die vorgesehene Stelle zu platzieren, da unser Steckbrett zu groß war. Wir haben uns überlegt, was wir an die Schrittmotoren bauen könnten um den Schalter auszulösen und kamen zu dem Schluss, dass Servos für diese Aufgabe deutlich besser geeignet waren.
   
 ### 29.09.19
 Servo angesteuert
