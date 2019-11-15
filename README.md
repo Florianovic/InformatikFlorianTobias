@@ -78,7 +78,7 @@ Florian schaute sich noch einmal das Tutorial aus der Playlist für Schalter an 
 
 ![Schalter YT](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Schalter%20Vorlage%20YT.JPG)
 
-Er baute eine Schaltung mit der man mit Hilfe eines Schalters eine LED an und wieder ausstellt. Auch der Sketch mit der If-Bedingung schien mit einem Mal ganz logisch. 
+Er baute eine Schaltung mit der man mit Hilfe eines Schalters eine LED an und wieder ausstellt. Dabei war wichtig, dass zwischen der Verbindung vom Schalter und dem Arduino  noch ein Widerstand geschaltet wird, der sog. „pull-down-resistor“, welcher im Schalter-Tutorial erwähnt wurde und von dem uns Herr Buhl erzählt hat. Er ist notwendig um die Restspannung vom Schalter nach der Trennung der Stromverbindung verschwinden zu lassen und führt dabei in die Grd-Spur. Auch der Sketch mit der If-Bedingung schien mit einem Mal ganz logisch. 
 
 ![Nachbau](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Schalter%20mit%20LED.JPG)
 
@@ -100,7 +100,7 @@ Wir suchten einen online-3D-Druck-Shop raus und importierten unsere Datei. Leide
 ![Preisliste](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Brutalste%20Preisliste.PNG)
 
 ### 06.11.19
-Da wir den Blödsinn mit dem 3D-Druck nun vergessen konnten, fingen wir an unsere Schaltung zu bauen. Als externe Stromversorgung hatte Florian von seinem Vater einen 7.4V Lipo-Akku mitgebracht. Das dazugehörige Adapterkabel für den Arduino hatte er auch bei Conrad gekauft und in das Kabel den ersten Schalter eingelötet. Damit war für die externe Stromversorgung gesogt. Wir haben den 5V Pin des Arduinos nun mit der Plus-Spur des Steckbretts und Grd mit der Minus-Spur verbunden. Anschließend haben wir die Servos an den Strom angeschlossen, indem wir das Braune Kabel mit der Grd-Spur und das rote mit der 5V-Spur verbunden haben. Das Steuerkabel ging dann jeweils in einen PWN-Pin, in diesem Falle in 10 und 11. Der Schalter ging mit einem ende in 5V und mit dem anderen in PIN 13. Dazwischen musste allerdings ein Widerstand geschaltet werden, der sog. „pull-down-resistor“, welcher im Schalter-Tutorial erwähnt wurde und von dem uns Herr Buhl erzählt hat. Er ist notwendig um die Restspannung vom Schalter nach der Trennung der Stromverbindung verschwinden zu lassen und führt dabei in die Grd-Spur. 
+Da wir den Blödsinn mit dem 3D-Druck nun vergessen konnten, fingen wir an unsere Schaltung zu bauen. Als externe Stromversorgung hatte Florian von seinem Vater einen 7.4V Lipo-Akku mitgebracht. Das dazugehörige Adapterkabel für den Arduino hatte er auch bei Conrad gekauft und in das Kabel den ersten Schalter eingelötet. Damit war für die externe Stromversorgung gesogt. Wir haben den 5V Pin des Arduinos nun mit der Plus-Spur des Steckbretts und Grd mit der Minus-Spur verbunden. Anschließend haben wir die Servos an den Strom angeschlossen, indem wir das Braune Kabel mit der Grd-Spur und das rote mit der 5V-Spur verbunden haben. Das Steuerkabel ging dann jeweils in einen PWN-Pin, in diesem Falle in 10 und 11. Der Schalter ging mit einem ende in 5V und mit dem anderen in PIN 13. Dazwischen wieder den Pull-down-resistor.
 
 ![fertige Schaltung ganz](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/fertige%20Schaltung%20ganz.JPG)
 
