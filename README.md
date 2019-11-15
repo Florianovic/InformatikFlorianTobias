@@ -21,6 +21,7 @@ Wir haben eine <a href="https://www.youtube.com/watch?v=0wAY3DYihyg&list=PLAB632
 Wir haben eine LED zum leuchten gebracht, indem wir die Schaltung aus dem Video mehr oder weniger nachgebaut und das Sketch abgeschrieben haben. 
 
 ![LED Sketch](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/LED%20Sketch.PNG)
+
 Im Setup-Teil wurde einfach nur der Pin der LED angegeben und mit "Output" so definiert, dass der Arduino an diesem Pin Strom abgibt. Im Loop-Teil wurde die LED mit "High" zum Leuchten gebracht und mit "LOW" wieder abgeschaltet. Dazwischen liegt ein "Delay", also eine Verzögerung von 1000. Das entspricht einer Sekunde.
 
 ![LED](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/simple%20Schaltung%20LED.JPG)
@@ -93,7 +94,7 @@ Plötzlich wurde uns klar, dass wir ganz kurz vor dem Ziel standen. Eine ganz ei
 Wir mussten einfach nur den Strom vom Akku zum Arduino mit dem ersten Schalter regeln, 5V und Grd mit dem Steckbrett verbinden und dort beide Servos und den Schalter anschließen und mit jeweils einem Kabel zum Arduino führen. Mehr nicht!
 
 ### 29.10.19
-Heute ist uns aufgefallen, dass wir noch gar keine Projektseite angefangen haben. Wir haben uns nochmal ein Musterbeispiel vom letzten Informatikkurs angesehen und unsere eigene angelegt. Das hat uns sp viel Zeit gekostet, dass wir es gar nicht mehr geschafft haben unseren Plan auszuprobieren.
+Heute ist uns aufgefallen, dass wir noch gar keine Projektseite angefangen haben. Wir haben uns nochmal ein Musterbeispiel vom letzten Informatikkurs angesehen und unsere eigene angelegt. Das hat uns so viel Zeit gekostet, dass wir es gar nicht mehr geschafft haben unseren Plan auszuprobieren.
 
 ### 05.11.19
 Wir haben es sofort installiert und die Exportfunktion ausprobiert. Es hat funktioniert und wir haben uns übertrieben gefreut.
