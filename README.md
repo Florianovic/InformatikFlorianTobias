@@ -30,7 +30,8 @@ Bei seiner Recherche ist er auf das Programm MatterControl gestoßen mit dem man
 Mit der Grundlage eines Würfels hat er begonnen:
 ![Mattercontol 1](https://raw.githubusercontent.com/Florianovic/InformatikFlorianTobias/master/Matterhackers%20W%C3%BCrfel.PNG)
 
-Nachdem er sich etwas mit dem Programm vertraut gemacht hat, hat er angefangen die Kiste zu modellieren. Die Maße waren realitätsgleich in Zentimetern angegeben und er modellierte eine Kiste mit den Maßen: (kommt noch, ich muss mich grad über das Update freuen)
+Nachdem er sich etwas mit dem Programm vertraut gemacht hat, hat er angefangen die Kiste zu modellieren. Die Maße waren realitätsgleich in Zentimetern angegeben.
+![MChohl](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Matterhackers%20hohle%20Kiste.PNG)
 
 
 ### 22.08.19
