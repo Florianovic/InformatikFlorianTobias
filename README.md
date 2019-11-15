@@ -79,7 +79,10 @@ Florian schaute sich noch einmal das Tutorial aus der Playlist für Schalter an 
 ![Schalter YT](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Schalter%20Vorlage%20YT.JPG)
 
 Er baute eine Schaltung mit der man mit Hilfe eines Schalters eine LED an und wieder ausstellt. Auch der Sketch mit der If-Bedingung schien mit einem Mal ganz logisch. 
+
 ![Nachbau](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Schalter%20mit%20LED.JPG)
+
+![Schalter Sketch](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Schalter%20Test%20sketch.JPG)
 
 Plötzlich wurde uns klar, dass wir ganz kurz vor dem Ziel standen. Eine ganz einfache Useless-Box zu bauen, die sich ganz einfach immer auf dieselbe Art und Weise ausschaltet. All diese komplizierten Dinge aus dem asiatischen Sketch und die komplizierte Schaltung waren eigentlich total unnötig für das was wir wollten. Wir brauchten keine LED oder eine komplizierte Stromversorgung über das Steckbrett.
 Wir mussten einfach nur den Strom vom Akku zum Arduino mit dem ersten Schalter regeln, 5V und Grd mit dem Steckbrett verbinden und dort beide Servos und den Schalter anschließen und mit jeweils einem Kabel zum Arduino führen. Mehr nicht!
@@ -88,15 +91,36 @@ Wir mussten einfach nur den Strom vom Akku zum Arduino mit dem ersten Schalter r
 Heute ist uns aufgefallen, dass wir noch gar keine Projektseite angefangen haben. Wir haben uns nochmal ein Musterbeispiel vom letzten Informatikkurs angesehen und unsere eigene angelegt. Das hat uns sp viel Zeit gekostet, dass wir es gar nicht mehr geschafft haben unseren Plan auszuprobieren.
 
 ### 05.11.19
-Wir haben es sofort installiert und die Exportfunktion ausprobiert. Es hat funktioniert und wir haben uns übertrieben gefreut. Wir suchten einen online-3D-Druck-Shop raus und importierten unsere Datei. Leider musste man sich dafür erst wieder einen Account erstellen und das hat uns einige Zeit gekostet. Als wir dann soweit waren und das Material für unseren druck aussuchen konnten waren wir völlig entsetzt. Die Preisliste sah nämlich so aus:
+Wir haben es sofort installiert und die Exportfunktion ausprobiert. Es hat funktioniert und wir haben uns übertrieben gefreut.
+
+![Update](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/UPDATE%20ALLAAAAAH.PNG)
+
+Wir suchten einen online-3D-Druck-Shop raus und importierten unsere Datei. Leider musste man sich dafür erst wieder einen Account erstellen und das hat uns einige Zeit gekostet. Als wir dann soweit waren und das Material für unseren druck aussuchen konnten waren wir völlig entsetzt. Die Preisliste sah nämlich so aus:
+
+![Preisliste](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Brutalste%20Preisliste.PNG)
 
 ### 06.11.19
 Da wir den Blödsinn mit dem 3D-Druck nun vergessen konnten, fingen wir an unsere Schaltung zu bauen. Als externe Stromversorgung hatte Florian von seinem Vater einen 7.4V Lipo-Akku mitgebracht. Das dazugehörige Adapterkabel für den Arduino hatte er auch bei Conrad gekauft und in das Kabel den ersten Schalter eingelötet. Damit war für die externe Stromversorgung gesogt. Wir haben den 5V Pin des Arduinos nun mit der Plus-Spur des Steckbretts und Grd mit der Minus-Spur verbunden. Anschließend haben wir die Servos an den Strom angeschlossen, indem wir das Braune Kabel mit der Grd-Spur und das rote mit der 5V-Spur verbunden haben. Das Steuerkabel ging dann jeweils in einen PWN-Pin, in diesem Falle in 10 und 11. Der Schalter ging mit einem ende in 5V und mit dem anderen in PIN 13. Dazwischen musste allerdings ein Widerstand geschaltet werden, der sog. „pull-down-resistor“, welcher im Schalter-Tutorial erwähnt wurde und von dem uns Herr Buhl erzählt hat. Er ist notwendig um die Restspannung vom Schalter nach der Trennung der Stromverbindung verschwinden zu lassen und führt dabei in die Grd-Spur. 
+
+![fertige Schaltung ganz](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/fertige%20Schaltung%20ganz.JPG)
+
 Der Aufbau war nun fertig, also mussten wir das Sketch schreiben. Wir fingen mit der Servo-Zeile und der Definition des Schalters an. Wir legten die Namen der Servos fest und nannten die Pins im Setup-Teil wobei wir den Schalter als Input-Komponente festlegten, da von ihm aus ja der Schalterzustand abgelesen werden soll. Im Loop-Teil bauten wir dann ganz einfach eine If-Bedingung ein für „buttonPin High“ mit Gradzahlen für beide Servos und „else“ mit anderen Gradzahlen für Beide ein. Dann hatten wir einen zustand für die Servos in beiden Fällen des Schalterzustandes. Nachdem wir noch einige Klammerfehler beheben mussten konnten wir den Sketch auf den Arduino laden und siehe da, es hat funktioniert!!! 
+
+![fertig Sketch](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Fertiger%20Sketch.PNG)
+(dies ist das bereits optimierte Sketch, das Vorherige hatte etwas andere Gradzahlen)
 
 
 ### 11.11.19 Zuahuse
-Florian hat zuhause eine Kiste gesucht und zwei Löcher für die Schalter gebohrt. Danach alle Komponenten eingebaut und an beide Servos Holzstücke angebaut. Eine Verlängerung um den Deckel zu öffnen und einen runden Arm um den Schalter zu betätigen. Danach hat er das Sketch so angepasst, dass erst der Deckel aufgeht, dann nach einem delay von 500 der Arm ausfährt und nach Betätigen des Schalters in umgekehrter Reihenfolge in den Anfangszustand geht. Damit war unsere Useless-Box fertig.
+Florian hat zuhause eine Kiste gesucht und zwei Löcher für die Schalter gebohrt. Danach alle Komponenten eingebaut und an beide Servos Holzstücke angebaut. Eine Verlängerung um den Deckel zu öffnen und einen runden Arm um den Schalter zu betätigen. 
+
+![Roboterarme](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Roboterarme.JPG)
+
+Danach hat er das Sketch so angepasst, dass erst der Deckel aufgeht, dann nach einem delay von 500 der Arm ausfährt und nach Betätigen des Schalters in umgekehrter Reihenfolge in den Anfangszustand geht. Damit war unsere Useless-Box fertig.
+
+![Boxbau1](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Box%20einbauen.JPG)
+
+![Boxbau fertig](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/feritige%20Box%20Prototyp.JPG)
+
 
 ### 12.11.19
 Heute haben wir noch einige Ausbesserungen vorgenommen, da beispielsweise der Arm für den Schalter hüufig abgerutscht ist.
