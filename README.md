@@ -18,7 +18,7 @@ Von Herrn Buhl bekamen wir eine Arduino-Platine. Um diese zu programmieren muss 
 ### 20.08.19
 Wir haben eine <a href="https://www.youtube.com/watch?v=0wAY3DYihyg&list=PLAB63281B90FB376E" rel="notfollow">Arduino-Tutorial-Reihe</a> auf YouTube gefunden und haben angefangen diese durchzuarbeiten.
 
-Wir haben eine LED zum leuchten gebracht, indem wir die Schaltung aus dem Video mehr oder weniger nachgebaut und das Sketch abgeschrieben haben. BILD UND ERLÄUTERUNG VON SKETCH UND SCHALTUNG#
+Wir haben eine LED zum leuchten gebracht, indem wir die Schaltung aus dem Video mehr oder weniger nachgebaut und das Sketch abgeschrieben haben. 
 
 ![LED Sketch](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/LED%20Sketch.PNG)
 
@@ -53,7 +53,9 @@ Heute haben wir erneut probiert den Motor zum Laufen zu bekommen. Wir haben unse
 Das einfache Ansteuern des Motors funktionierte nun. Um das Ansteuern zu vereinfachen haben wir, auf Anraten von Herrn Buhl, versucht Variablen in den Code einzuarbeiten. Diese sollen bewirken, dass einzelne Schritte des Motors vereinfacht werden und das Skript generell übersichtlicher wird. Leider hat dies nicht ganz funktioniert, wir werden es in der nächsten Stunde noch einmal versuchen.
 
 ### 12.09.19
-Wir haben heute versucht zwei Motoren an unser Arduino anzuschließen, da wir für unser Projekt neben dem Arm der den Schalter betätigt auch einen Motor brauchen, der den Deckel der Kiste öffnet. Dabei stießen wir auf ein Problem. Der 5Volt Pin am Arduino war nur einmal vorhanden, doch da beide Motoren von ihm Strom beziehen mussten, mussten wir einen weg finden zwei Kabel in den einen Pin zu bekommen.
+Wir haben heute versucht zwei Motoren an unser Arduino anzuschließen, da wir für unser Projekt neben dem Arm der den Schalter betätigt auch einen Motor brauchen, der den Deckel der Kiste öffnet. Dabei stießen wir auf ein Problem. Der 5Volt Pin am Arduino war nur einmal vorhanden, doch da beide Motoren von ihm Strom beziehen mussten, mussten wir einen weg finden zwei Kabel in den einen Pin zu bekommen. Wir isolierten ein Kabel ab und steckten es in die Isolierung des Zweiten. Das funktionierte.
+
+![Schrittmotoren](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Schrittmotor.jpg)
 
 ### 24.09.19
 Da wir nun auch mit den Motoren erstmal feststeckten, haben wir uns wieder dem Problem mit dem 3d-Programm zugewendet. Das Exportieren der Datei war immer noch nicht möglich, weshalb wir im Internet nach einer Lösung suchten. Florian stieß dabei auf ein Forum in dem mehrere das gleiche Problem hatten. Einer der Entwickler des Programms hatte darauf geantwortet, dass dieses Problem bekannt sei und es mit dem nächsten Update behoben werden soll. Wir hofften, dass das Update noch vor Abgabe unseres Projekts herauskommen würde.
@@ -125,3 +127,5 @@ Danach hat er das Sketch so angepasst, dass erst der Deckel aufgeht, dann nach e
 ### 12.11.19
 Heute haben wir noch einige Ausbesserungen vorgenommen, da beispielsweise der Arm für den Schalter hüufig abgerutscht ist.
 Zuhause hat Florian das Adapterkabel noch etwas gekürzt un einen kleineren Servo für den deckel genommen um etwas Platz zu sparen, da aufgrund der vielen Kabel der deckel oft nicht richtig zu ging. Ebenfalls hat er ein Stück Blei in den Deckel geklebt damit er richtig schließt und einen kleinen Stoffwurm auf den Schalter-Arm geklebt. Als lustige Überraschung, der Holzwurm in der Kiste. Damit war die Useless-Box endgültig fertig.
+
+![Box endgültig](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Box%20fertig.jpg)
