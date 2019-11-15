@@ -21,6 +21,7 @@ Wir haben eine <a href="https://www.youtube.com/watch?v=0wAY3DYihyg&list=PLAB632
 Wir haben eine LED zum leuchten gebracht, indem wir die Schaltung aus dem Video mehr oder weniger nachgebaut und das Sketch abgeschrieben haben. 
 
 ![LED Sketch](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/LED%20Sketch.PNG)
+Im Setup-Teil wurde einfach nur der Pin der LED angegeben und mit "Output" so definiert, dass der Arduino an diesem Pin Strom abgibt. Im Loop-Teil wurde die LED mit "High" zum Leuchten gebracht und mit "LOW" wieder abgeschaltet. Dazwischen liegt ein "Delay", also eine Verzögerung von 1000. Das entspricht einer Sekunde.
 
 ![LED](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/simple%20Schaltung%20LED.JPG)
 
@@ -86,6 +87,8 @@ Er baute eine Schaltung mit der man mit Hilfe eines Schalters eine LED an und wi
 
 ![Schalter Sketch](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Schalter%20Test%20sketch.JPG)
 
+Die If-Bedingung sagt einfach nur, "wenn die Situation wie folgt ist... dann passiert...! Wenn nicht, dann passiert...!". In diesem Falle "geht die LED an (HIGH) oder bleibt aus (LOW)".
+
 Plötzlich wurde uns klar, dass wir ganz kurz vor dem Ziel standen. Eine ganz einfache Useless-Box zu bauen, die sich ganz einfach immer auf dieselbe Art und Weise ausschaltet. All diese komplizierten Dinge aus dem asiatischen Sketch und die komplizierte Schaltung waren eigentlich total unnötig für das was wir wollten. Wir brauchten keine LED oder eine komplizierte Stromversorgung über das Steckbrett.
 Wir mussten einfach nur den Strom vom Akku zum Arduino mit dem ersten Schalter regeln, 5V und Grd mit dem Steckbrett verbinden und dort beide Servos und den Schalter anschließen und mit jeweils einem Kabel zum Arduino führen. Mehr nicht!
 
@@ -109,6 +112,7 @@ Da wir den Blödsinn mit dem 3D-Druck nun vergessen konnten, fingen wir an unser
 Der Aufbau war nun fertig, also mussten wir das Sketch schreiben. Wir fingen mit der Servo-Zeile und der Definition des Schalters an. Wir legten die Namen der Servos fest und nannten die Pins im Setup-Teil wobei wir den Schalter als Input-Komponente festlegten, da von ihm aus ja der Schalterzustand abgelesen werden soll. Im Loop-Teil bauten wir dann ganz einfach eine If-Bedingung ein für „buttonPin High“ mit Gradzahlen für beide Servos und „else“ mit anderen Gradzahlen für Beide ein. Dann hatten wir einen zustand für die Servos in beiden Fällen des Schalterzustandes. Nachdem wir noch einige Klammerfehler beheben mussten konnten wir den Sketch auf den Arduino laden und siehe da, es hat funktioniert!!! 
 
 ![fertig Sketch](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Fertiger%20Sketch.PNG)
+
 (dies ist das bereits optimierte Sketch, das Vorherige hatte etwas andere Gradzahlen)
 
 
