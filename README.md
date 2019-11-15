@@ -110,11 +110,11 @@ Da wir den Blödsinn mit dem 3D-Druck nun vergessen konnten, fingen wir an unser
 
 ![fertige Schaltung ganz](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/fertige%20Schaltung%20ganz.JPG)
 
-Der Aufbau war nun fertig, also mussten wir das Sketch schreiben. Wir fingen mit der Servo-Zeile und der Definition des Schalters an. Wir legten die Namen der Servos fest und nannten die Pins im Setup-Teil wobei wir den Schalter als Input-Komponente festlegten, da von ihm aus ja der Schalterzustand abgelesen werden soll. Im Loop-Teil bauten wir dann ganz einfach eine If-Bedingung ein für „buttonPin High“ mit Gradzahlen für beide Servos und „else“ mit anderen Gradzahlen für Beide ein. Dann hatten wir einen zustand für die Servos in beiden Fällen des Schalterzustandes. Nachdem wir noch einige Klammerfehler beheben mussten konnten wir den Sketch auf den Arduino laden und siehe da, es hat funktioniert!!! 
+Der Aufbau war nun fertig, also mussten wir das Sketch schreiben. Wir fingen mit der Servo-Zeile und der Definition des Schalters an. Wir legten die Namen der Servos fest und nannten die Pins im Setup-Teil wobei wir den Schalter als Input-Komponente festlegten, da von ihm aus ja der Schalterzustand abgelesen werden soll. Im Loop-Teil bauten wir dann ganz einfach eine If-Bedingung ein für „buttonPin High“ mit Gradzahlen für beide Servos und „else“ mit anderen Gradzahlen für Beide ein. Dann hatten wir einen zustand für die Servos in beiden Fällen des Schalterzustandes. Nachdem wir noch einige Klammerfehler beheben mussten konnten wir den Sketch auf den Arduino laden und siehe da, es hat funktioniert!
 
 ![fertig Sketch](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Fertiger%20Sketch.PNG)
 
-(dies ist das bereits optimierte Sketch, das Vorherige hatte etwas andere Gradzahlen. Die <a href="https://github.com/Florianovic/Useless-Box-Florian-Tobias/blob/master/README.md">Erklärung des Sketches</a> ist auf der verlinkten Projektseite)
+(Dies ist der bereits optimierte Sketch, der Vorherige hatte etwas andere Gradzahlen. Die <a href="https://github.com/Florianovic/Useless-Box-Florian-Tobias/blob/master/README.md">Erklärung des Sketches</a> ist auf der verlinkten Projektseite)
 
 
 ### 11.11.19 Zuahuse
