@@ -18,7 +18,8 @@ Von Herrn Buhl bekamen wir eine Arduino-Platine. Um diese zu programmieren muss 
 ### 20.08.19
 Wir haben eine Arduino-Tutorial-Reihe auf YouTube gefunden und haben angefangen diese durchzuarbeiten.
 https://www.youtube.com/watch?v=0wAY3DYihyg&list=PLAB63281B90FB376E
-Wir haben eine LED zum leuchten gebracht, indem wir die Schaltung aus dem Video mehr oder weniger nachgebaut und das Sketch abgeschrieben haben. BILD UND ERLÄUTERUNG VON SKETCH UND SCHALTUNG
+Wir haben eine LED zum leuchten gebracht, indem wir die Schaltung aus dem Video mehr oder weniger nachgebaut und das Sketch abgeschrieben haben. BILD UND ERLÄUTERUNG VON SKETCH UND SCHALTUNG#
+![LED Sketch](LED Sketch.PNG)
 
 ### 21.08.19
 Da wir nur ein Arduino zur Verfügung hatten hat Tobias zunächst angefangen das Tutorial durchzuarbeiten.
