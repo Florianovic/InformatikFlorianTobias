@@ -21,7 +21,7 @@ Wir haben eine <a href="https://www.youtube.com/watch?v=0wAY3DYihyg&list=PLAB632
 Wir haben eine LED zum leuchten gebracht, indem wir die Schaltung aus dem Video mehr oder weniger nachgebaut und das Sketch abgeschrieben haben. BILD UND ERLÄUTERUNG VON SKETCH UND SCHALTUNG#
 
 ![LED Sketch](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/LED%20Sketch.PNG)
-![LED] (https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Simpler%20Schalter%20mit%20LED.jpg)
+![LED] (https://github.com/Florianovic/InformatikFlorianTobias/blob/master/simple%20Schaltung%20LED.JPG)
 
 ### 21.08.19
 Da wir nur ein Arduino zur Verfügung hatten hat Tobias zunächst angefangen ein weiteres <a href="https://funduino.de/anleitung" rel="notfollow">Tutorial</a> durchzuarbeiten.
