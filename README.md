@@ -29,9 +29,11 @@ Da wir nur ein Arduino zur Verfügung hatten hat Tobias zunächst angefangen ein
 Florian hat im Internet nach Programen recherchiert, mit denen man ein 3d Modell modellieren kann, da wir uns überlegt haben dass es cool wäre wenn wir unsere Box nach unseren Vorstellungen designen könnten und an die uns vorschwebenden Maße anpassen könnten.
 Bei seiner Recherche ist er auf das Programm MatterControl gestoßen mit dem man sich kostenlos und einfach eine 3D Figur designen kann. Das Programm ist sehr übersichtlich und man kann seine Figur auf der Grundlage von einigen einfachen Formen modellieren.
 Mit der Grundlage eines Würfels hat er begonnen:
+
 ![Mattercontol 1](https://raw.githubusercontent.com/Florianovic/InformatikFlorianTobias/master/Matterhackers%20W%C3%BCrfel.PNG)
 
 Nachdem er sich etwas mit dem Programm vertraut gemacht hat, hat er angefangen die Kiste zu modellieren. Die Maße waren realitätsgleich in Zentimetern angegeben.
+
 ![MChohl](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Matterhackers%20hohle%20Kiste.PNG)
 
 
@@ -64,6 +66,7 @@ Aus einem früheren Projekt war ein Roboterarm im Technikschrank in dem mehrere 
 
 ### 22.10.19
 Da Florians Vater Modellflugzeuge baut und ein paar Servos hatte, reichte ein kleiner Einkauf bei Conradelektronik um einen Arduino, ein paar Kabel, Steckbrett und Schalter zu besorgen. Wir fanden einen Bauplan Bauplan für eine Uselsee-Box im Internet, mit dem wir versuchten alle Komponenten einmal zu verbinden und deren Zusammenspiel somit zu verstehen. Bis auf die an- und abschaltbare Stromquelle bauten wir es nach.
+
 ![Bauplan](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Bauplan.PNG)
 
 ### 23.10.19
@@ -71,7 +74,14 @@ Da wir alles blind übernommen hatten, und es funktionierte, machten wir uns nun
 
 
 ### 24.10.19
-Florian schaute sich noch einmal das Tutorial aus der Playlist für Schalter an und übertrug es auf unseren Kippschalter. Er baute eine Schaltung mit der man mit Hilfe eines Schalters eine LED an und wieder ausstellt. Auch der Sketch mit der If-Bedingung schien mit einem Mal ganz logisch. Plötzlich wurde uns klar, dass wir ganz kurz vor dem Ziel standen. Eine ganz einfache Useless-Box zu bauen, die sich ganz einfach immer auf dieselbe Art und Weise ausschaltet. All diese komplizierten Dinge aus dem asiatischen Sketch und die komplizierte Schaltung waren eigentlich total unnötig für das was wir wollten. Wir brauchten keine LED oder eine komplizierte Stromversorgung über das Steckbrett.
+Florian schaute sich noch einmal das Tutorial aus der Playlist für Schalter an und übertrug es auf unseren Kippschalter.
+
+![Schalter YT](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Schalter%20Vorlage%20YT.JPG)
+
+Er baute eine Schaltung mit der man mit Hilfe eines Schalters eine LED an und wieder ausstellt. Auch der Sketch mit der If-Bedingung schien mit einem Mal ganz logisch. 
+![Nachbau](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Schalter%20mit%20LED.JPG)
+
+Plötzlich wurde uns klar, dass wir ganz kurz vor dem Ziel standen. Eine ganz einfache Useless-Box zu bauen, die sich ganz einfach immer auf dieselbe Art und Weise ausschaltet. All diese komplizierten Dinge aus dem asiatischen Sketch und die komplizierte Schaltung waren eigentlich total unnötig für das was wir wollten. Wir brauchten keine LED oder eine komplizierte Stromversorgung über das Steckbrett.
 Wir mussten einfach nur den Strom vom Akku zum Arduino mit dem ersten Schalter regeln, 5V und Grd mit dem Steckbrett verbinden und dort beide Servos und den Schalter anschließen und mit jeweils einem Kabel zum Arduino führen. Mehr nicht!
 
 ### 29.10.19
