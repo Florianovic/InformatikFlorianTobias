@@ -16,15 +16,15 @@ In dieser Stunde haben wir uns überlegt, was wir für ein Projekt mit der Steue
 Von Herrn Buhl bekamen wir eine Arduino-Platine. Um diese zu programmieren muss man sie an einen PC anschließen und mit einer dort installierten Software den programmierten Code, den „Sketch“ auf den Arduino übertragen. Wir haben uns in dieser Stunde beide die Arduino-Software aus dem Internet auf unsere Laptops geladen und auf YouTube nach einem Tutorial gesucht.
 
 ### 20.08.19
-Wir haben eine Arduino-Tutorial-Reihe auf YouTube gefunden und haben angefangen diese durchzuarbeiten.
-https://www.youtube.com/watch?v=0wAY3DYihyg&list=PLAB63281B90FB376E
+Wir haben eine <a href="https://www.youtube.com/watch?v=0wAY3DYihyg&list=PLAB63281B90FB376E" rel="notfollow">Arduino-Tutorial-Reihe</a> auf YouTube gefunden und haben angefangen diese durchzuarbeiten.
+
 Wir haben eine LED zum leuchten gebracht, indem wir die Schaltung aus dem Video mehr oder weniger nachgebaut und das Sketch abgeschrieben haben. BILD UND ERLÄUTERUNG VON SKETCH UND SCHALTUNG#
 
 ![LED Sketch](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/LED%20Sketch.PNG)
 ![LED] (https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Simpler%20Schalter%20mit%20LED.jpg)
 
 ### 21.08.19
-Da wir nur ein Arduino zur Verfügung hatten hat Tobias zunächst angefangen das Tutorial durchzuarbeiten.
+Da wir nur ein Arduino zur Verfügung hatten hat Tobias zunächst angefangen ein weiteres <a href="https://funduino.de/anleitung" rel="notfollow">Tutorial</a> durchzuarbeiten.
 Florian hat im Internet nach Programen recherchiert, mit denen man ein 3d Modell modellieren kann, da wir uns überlegt haben dass es cool wäre wenn wir unsere Box nach unseren Vorstellungen designen könnten und an die uns vorschwebenden Maße anpassen könnten.
 Bei seiner Recherche ist er auf das Programm MatterControl gestoßen mit dem man sich kostenlos und einfach eine 3D Figur designen kann. Das Programm ist sehr übersichtlich und man kann seine Figur auf der Grundlage von einigen einfachen Formen modellieren.
 Mit der Grundlage eines Würfels hat er begonnen:
@@ -35,10 +35,7 @@ Nachdem er sich etwas mit dem Programm vertraut gemacht hat, hat er angefangen d
 
 
 ### 22.08.19
-In der heutigen Stunde hat Florian die Box weiter modelliert und Kiste und Deckel separat gemacht. Die Idee war, die Box wie eine Art Maul zu machen aus dem eine Zunge kommt und den Schalter umlegt. Tobias hat unterdessen 
-
-
-??weiter das Programm durchgearbeitet. Tobi was hast du da gemacht?
+In der heutigen Stunde hat Florian die Box weiter modelliert und Kiste und Deckel separat gemacht. Die Idee war, die Box wie eine Art Maul zu machen aus dem eine Zunge kommt und den Schalter umlegt. Tobias hat unterdessen weiter das <a href="https://funduino.de/anleitung" rel="notfollow">Tutorial</a> durchgearbeitet.
 
 ### 27.08.19
 Florian hat den ersten 3D Entwurf fertig bearbeitet. Leider konnte das Projekt aus irgendeinem Grund nicht exportiert werden und somit keine druckbare Datei erstellt werden. Wir haben versucht das Problem mit Neustarten des Laptops und dem neuen Installieren des Programms zu lösen. Leider ohne Erfolg. Auch auf Tobias Laptop hat das Exportieren nicht funktioniert, woraufhin wir schlussfolgerten, dass das Programm einen Fehler haben musste.
@@ -50,7 +47,7 @@ Um unser Projekt der Useless-Box umzusetzen, haben wir heute im Technikschrank d
 Heute haben wir erneut probiert den Motor zum Laufen zu bekommen. Wir haben unsere Schaltung und unser Sketch noch einmal genau überprüft und keinen Fehler gefunden. Der Motor wurde warm und vibrierte leicht, bewegte sich aber nicht. Durch Zufall merkte Tobi, dass er sich verhakt hatte und nachdem er ihn per Hand ein Stück gedreht hatte lief er von alleine weiter, bis er nach zwei bis drei Durchläufen des Loops wieder hängen blieb. Wir haben noch einen zweiten Motor gefunden, den wir gegen den defekten austauschten und alles funktionierte einwandfrei.
 
 ### 11.09.19
-Das einfache Ansteuern des Motors funktionierte nun. Um aber gezielt die Bewegung ausführen zu können, die wir für unser Projekt brauchten musste es uns gelingen die genaue Einstellung des Motors festzulegen. Die wollten wir durch den Einbau von Variablen erreichen. WAS IST DAS??
+Das einfache Ansteuern des Motors funktionierte nun. Um das Ansteuern zu vereinfachen haben wir, auf Anraten von Herrn Buhl, versucht Variablen in den Code einzuarbeiten. Diese sollen bewirken, dass einzelne Schritte des Motors vereinfacht werden und das Skript generell übersichtlicher wird. Leider hat dies nicht ganz funktioniert, wir werden es in der nächsten Stunde noch einmal versuchen.
 
 ### 12.09.19
 Wir haben heute versucht zwei Motoren an unser Arduino anzuschließen, da wir für unser Projekt neben dem Arm der den Schalter betätigt auch einen Motor brauchen, der den Deckel der Kiste öffnet. Dabei stießen wir auf ein Problem. Der 5Volt Pin am Arduino war nur einmal vorhanden, doch da beide Motoren von ihm Strom beziehen mussten, mussten wir einen weg finden zwei Kabel in den einen Pin zu bekommen.
