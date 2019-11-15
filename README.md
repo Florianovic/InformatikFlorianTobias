@@ -114,7 +114,7 @@ Der Aufbau war nun fertig, also mussten wir das Sketch schreiben. Wir fingen mit
 
 ![fertig Sketch](https://github.com/Florianovic/InformatikFlorianTobias/blob/master/Fertiger%20Sketch.PNG)
 
-(dies ist das bereits optimierte Sketch, das Vorherige hatte etwas andere Gradzahlen)
+(dies ist das bereits optimierte Sketch, das Vorherige hatte etwas andere Gradzahlen. Die <a href="https://github.com/Florianovic/Useless-Box-Florian-Tobias/blob/master/README.md">Erklärung des Sketches</a> ist auf der verlinkten Projektseite)
 
 
 ### 11.11.19 Zuahuse
